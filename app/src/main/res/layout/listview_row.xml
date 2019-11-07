@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#2ad9e7">
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="33"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textName"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="33"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textPhone"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="33"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textEmail"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="33"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textStreet"/>
+
+
+</LinearLayout>
